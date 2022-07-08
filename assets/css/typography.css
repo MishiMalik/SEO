@@ -1,0 +1,52 @@
+.padding{
+padding-left: 70px ;
+padding-right: 70px;
+}
+/* font-family: 'Charcoal', sans-serif; */
+@import url('http://fonts.cdnfonts.com/css/charcoal');                                              
+.main-text{
+        font-size: 45px;
+        font-weight: 700;
+        letter-spacing: 0px;
+        color: #153e5c;
+        font-family: Impact, Charcoal ,sans-serif !important;
+        line-height: 1 !important;
+        text-transform: uppercase;
+}
+.secondry-text{
+    font-size: 41px;
+    font-weight: 800 !important;
+    text-transform: uppercase;
+    
+}
+.f-17{
+    font-size: 17px;
+}
+.f-20{
+    font-size: 20px;
+}
+.f-30{
+    font-size: 30px;
+}
+.w-700{
+    font-weight: 700;
+}
+.w-800{
+    font-weight: 800;
+}
+.text{
+    color: #292929;
+    font-size: 17px;
+}
+.blue{
+    color: #008fc5;
+}
+.red{
+    color: red;
+}
+.w-600{
+    font-weight: 600 !important;
+}
+.f-14{
+    font-size: 14px !important;
+}

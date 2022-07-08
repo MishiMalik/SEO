@@ -1,0 +1,99 @@
+@media only screen and (max-width:1024px){
+    .accordion-button{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width:991px){
+  
+    .top-bar{
+        display: none;
+    }
+    .small-nav{
+        display: block;
+        background-color: black !important;
+    }
+    .navbar{
+        display: none;
+    }
+    .padding{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .nav-link{
+        font-size: 14px !important;
+        font-weight: 600 !important;
+        text-transform: uppercase !important;
+        color: #979797 !important;
+        padding-left: 0px !important ;
+    }
+    .nav-item{
+        border-bottom: 1px solid #626262 !important;
+        width: 80%;
+    }
+    .page-name{
+        display: block;
+        margin-top: 85px;
+    }
+    .video{
+   margin-top: 30px;
+   padding: 30px;
+    }
+    .input{
+        width: 100%;
+    }
+    .section-1{
+        padding-bottom: 0px;
+    }
+    .main-text{
+        font-size: 30px;
+    }
+    .secondry-text{
+        font-size: 25px;
+    }
+    .carousel-control-next{
+        right: 10px ;
+    }
+    .carousel-control-prev{
+        left: 10px ;
+    }
+    .card-contact{
+      margin-top: 60px;
+      padding: 20px !important;
+    }
+}
+@media only screen and (max-width:768px){
+    .text{
+        text-align: justify;
+     }
+     .f-20{
+        text-align: justify;
+     }
+}
+@media only screen and (max-width:420px){
+    .footer-link{
+        text-align: center;
+    }
+    .logo {
+        /* height: 72px; */
+        width: 230px;
+        height: auto;
+    }
+    .main-text{
+        font-size: 25px;
+        text-align: center;
+    }
+    /* .f-17{
+        text-align: center;
+    } */
+    .top-btn2{
+        font-size: 14px;
+        padding-left: 3px !important;
+        padding-right: 3px !important;
+    }
+    .top-btn{
+        font-size: 14px;
+        padding-left: 3px !important;
+        padding-right: 3px !important;
+    }
+    
+}
