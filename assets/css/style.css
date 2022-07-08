@@ -53,6 +53,7 @@ body{
 }
 .small-nav{
     display: none;
+    height: 70px;
 }
 .side-close{
     background-color: transparent !important;
