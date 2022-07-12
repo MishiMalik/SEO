@@ -51,6 +51,9 @@ body{
 .nav-link:hover{
     color: black !important;
 }
+.active-navbar{
+  color: #000 !important;
+}
 .small-nav{
     display: none;
     height: 70px;
@@ -84,6 +87,7 @@ body{
     border-bottom:2px solid  #e6e6e6 !important;
     background-color: white;
     display: none;
+    padding: 15px 0px !important;
 }
 .input{
     background-color: #ebf6fc !important;
@@ -367,8 +371,11 @@ padding:0px;
 }
 .btn-close {
 position:absolute;
-right:-30px;
-top:0;
+right:-60px !important;
+top:-30px !important;
+background-color: white;
+border-radius: 100%;
+opacity: 1;
 }
 .video-btn{
   background-color: transparent;
@@ -486,7 +493,180 @@ top:0;
   height: 100%;
   width: 100%;
 }
-.modal-dialog{
+/* .modal-dialog{
   top: 10%;
-}
+} */
 /* url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 34.8"><path d="m0 17.1 17.7 17.7 2.3-2.3L4.7 17.1 19.5 2.4 17.1 0 0 17.1z"/></svg>') */
+
+
+
+
+
+
+
+
+
+/* =========================case studeis page================================== */
+.section-1-1{
+  background-image: url('../images/working-bg.jpg');
+  height: 43vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section-1-1 .navbar{
+  background-image: url('../images/header-bg-1.jpg');
+  height: 16vh;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.read-more{
+  background-color: #008fc5;
+  padding: 12px 25px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  border-radius: 4px;
+}
+.case-study-row{
+  height: 550px !important;
+}
+.case-study-text{
+  background-color: rgb(235, 246, 252);
+  background-image: url('../images/gear-op.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding: 50px;
+    padding-bottom: 150px;
+    height: 100%;
+}
+.case-study-img{
+  height: 100% !important;
+  width: 100%;
+}
+.results-box{
+  padding: 20px 10px;
+  box-shadow: 5px 5px 5px rgb(0 0 0 / 20%);
+  border: 5px solid rgba(0, 145, 197, 0.228);
+  margin-top: -100px;
+  position: relative;
+  z-index: 10;
+  background-color: white;
+}
+.border-right{
+  border-right: 1px solid rgba(0, 145, 197, 0.228);
+}
+.buttons button{
+  background-color: #008fc5;
+  padding: 12px 20px;
+  border: none;
+  margin: 5px;
+  border-radius: 4px;
+}
+.buttons button:hover{
+  background-color: #026f97;
+  padding: 12px 20px;
+  border: none;
+  margin: 5px;
+  border-radius: 4px;
+}
+.buttons button a{
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  
+}
+
+
+
+/* ====================================packsges page-=========================================== */
+.pkg-btn{
+  background-color: #ffde00 !important;
+    color: #292929 !important;
+    font-weight: 800;
+    border: none !important;
+    margin: 0 auto;
+    font-size: 17px;
+    padding: 14px 23px;
+    border-radius: 4px;
+}
+.pkg-btn:hover{
+  background-color:#292929  !important;
+    color: white !important;
+   
+}
+.form-section{
+  background-color: #008fc5;
+  padding: 50px 0px ;
+}
+.pricing-table thead th{
+  background-color: #fff5b2 !important;
+  padding: 20px;
+  width: 13.33%;
+}
+.pricing-table thead th h1{
+  color: #008fc5;
+    font-size: 18px;
+    font-weight: 700;
+}
+.pricing-table thead th button{
+    color: #ffde00;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #000;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 4px;
+}
+.pricing-table table,
+.pricing-table thead th,
+.pricing-table tbody tr td{
+  border: 1px solid gray !important;
+  padding: 5px !important;
+}
+.pricing-table table tr:nth-child(even) {
+  background-color: #f7f7f7 !important;
+}
+.pricing-table table tr:nth-child(odd) {
+  background-color: white !important;
+
+}
+.alert-header{
+  padding: 10px 20px;
+  border-radius: 4px 4px 0px 0px;
+}
+.alert-body{
+  border-radius: 0px 0px 4px 4px;
+  padding:40px 20px;
+  border: 2px solid black;
+}
+
+.client-text{
+  padding: 15px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  color: #696969;
+  background: #efefef;
+}
+
+.client-says img{
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+

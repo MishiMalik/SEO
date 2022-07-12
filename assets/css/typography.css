@@ -19,14 +19,29 @@ padding-right: 70px;
     text-transform: uppercase;
     
 }
+.f-14{
+    font-size: 12px;
+}
+
 .f-17{
     font-size: 17px;
 }
 .f-20{
     font-size: 20px;
 }
+.f-25{
+    font-size: 25px;
+}
 .f-30{
     font-size: 30px;
+}
+.f-46{
+    font-size: 46px;
+}
+.f-50{
+    font-size: 50px;
+    min-height: 40px !important;
+    
 }
 .w-700{
     font-weight: 700;
@@ -34,12 +49,16 @@ padding-right: 70px;
 .w-800{
     font-weight: 800;
 }
+
 .text{
     color: #292929;
     font-size: 17px;
 }
+.text-uppercase{
+    text-transform: uppercase;
+}
 .blue{
-    color: #008fc5;
+    color: #008fc5 !important;
 }
 .red{
     color: red;
